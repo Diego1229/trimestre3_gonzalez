@@ -1,10 +1,10 @@
-import mysql.connector
+import mysql.connector 
 
 db=mysql.connector.connect(
-    host="localhost",
+   host="localhost",
     user="root",
     password="",
-    database="ld1"
+    database="ecommercen_gonzalez"
 )
 cursor=db.cursor()
 cursor.execute('SHOW DATABASES')
